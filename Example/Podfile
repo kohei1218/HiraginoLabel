@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HiraginoLabel_Example' do
+  pod 'HiraginoLabel', :path => '../'
+
+  target 'HiraginoLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
