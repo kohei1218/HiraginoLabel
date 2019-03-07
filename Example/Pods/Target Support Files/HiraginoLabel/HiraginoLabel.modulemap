@@ -1,0 +1,6 @@
+framework module HiraginoLabel {
+  umbrella header "HiraginoLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

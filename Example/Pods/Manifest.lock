@@ -1,0 +1,16 @@
+PODS:
+  - HiraginoLabel (0.1.0)
+
+DEPENDENCIES:
+  - HiraginoLabel (from `../`)
+
+EXTERNAL SOURCES:
+  HiraginoLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HiraginoLabel: 1337c63e7475479add6f79f7da6f2dee0fddd511
+
+PODFILE CHECKSUM: b38a03c22284a90aad904c82bf5aeb3e9ce7aa7e
+
+COCOAPODS: 1.5.3

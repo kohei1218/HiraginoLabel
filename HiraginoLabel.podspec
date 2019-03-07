@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HiraginoLabel'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HiraginoLabel.'
+  s.summary          = 'UIlabel that can display Hiragino font perfectly.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+When using Hiragino font for regular UIlabe, many cases do not display properly.
+With HiraginoLabel, you can display perfectly a line without appending code.
                        DESC
 
   s.homepage         = 'https://github.com/kohei1218/HiraginoLabel'
@@ -26,6 +27,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kohei1218' => 'yandapanda1218@gmail.com' }
   s.source           = { :git => 'https://github.com/kohei1218/HiraginoLabel.git', :tag => s.version.to_s }
+  s.swift_version    = '4.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
