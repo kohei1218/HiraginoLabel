@@ -7,16 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4144FDF463ADE951A7571DFC2E890091 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		45F7E0ED23FFCFC2427E530650D907A3 /* HiraginoLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C10E3557307E950484A3C49ECE44FEEF /* HiraginoLabel-dummy.m */; };
-		583CC5DCA6F6C6D116F6A3BF34B00559 /* Pods-HiraginoLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC43C97EA70C65B4D42EA10E30722C4A /* Pods-HiraginoLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DE408AB15480AC914A7D367031C540C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A1B1B7ED223120BA00FA7E38 /* HiraginoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B1B7EC223120BA00FA7E38 /* HiraginoLabel.swift */; };
-		AB6DC854054B9425DF8452BA626D46E5 /* Pods-HiraginoLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB15F2624A95A4F69BD35017532461 /* Pods-HiraginoLabel_Example-dummy.m */; };
-		BA9F5E41E2BBA514EBC31AFB836BBEDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A9F501A5641F01098A18DB58AE683079 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B76DE7E68FF3F593BF194D8DF6B6A1BB /* Pods-HiraginoLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DB15F2624A95A4F69BD35017532461 /* Pods-HiraginoLabel_Example-dummy.m */; };
 		BC9C246AD6CCA893DF5359B5C13131B5 /* Pods-HiraginoLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31330CDAA88B59B0128C4DA1F8D97C47 /* Pods-HiraginoLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D33CADAF9B62F04B28940624AB0D1DED /* Pods-HiraginoLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC43C97EA70C65B4D42EA10E30722C4A /* Pods-HiraginoLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D616D70C79BE29F609662ACC8B401870 /* Pods-HiraginoLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EEFA9476903A8D8DD57932BB6563B7 /* Pods-HiraginoLabel_Tests-dummy.m */; };
-		DFFFFB29082AD2220ADB497C65B18E80 /* HiraginoLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EBC0D4C85E028601E72571EF0D11469 /* HiraginoLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,73 +20,42 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E4E118280E2423BB06C5066ED8182E93;
+			remoteGlobalIDString = 6EFFA41AC23F8C3F589A3392FF213682;
 			remoteInfo = "Pods-HiraginoLabel_Example";
-		};
-		9C2D021EED1CEED03877E3C4E4280FBA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 96FC7855E2A6DC8A64F58619C080AF8C;
-			remoteInfo = HiraginoLabel;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		097AC3AD0F5422B7642ED88CB594C9AC /* Pods-HiraginoLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiraginoLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0EBC0D4C85E028601E72571EF0D11469 /* HiraginoLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiraginoLabel-umbrella.h"; sourceTree = "<group>"; };
-		125824B901D644B1760700349E2751DF /* Pods_HiraginoLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiraginoLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F1BDC9DE2F1DDF38FFB5BAD46B589D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29EEFA9476903A8D8DD57932BB6563B7 /* Pods-HiraginoLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiraginoLabel_Tests-dummy.m"; sourceTree = "<group>"; };
-		30A506327777951C42F95EEA66884D2E /* HiraginoLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HiraginoLabel.xcconfig; sourceTree = "<group>"; };
 		31330CDAA88B59B0128C4DA1F8D97C47 /* Pods-HiraginoLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiraginoLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		45255488D8D156827446A368E127A43C /* HiraginoLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HiraginoLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45342539E9876A6C68FE40D15315E716 /* Pods-HiraginoLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiraginoLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		48214D1DFFBC1E6C8523D09482CC6F5E /* Pods-HiraginoLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiraginoLabel_Example.modulemap"; sourceTree = "<group>"; };
-		532EDA3FD79735F76A9F8BADE6EEC7B0 /* Pods_HiraginoLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiraginoLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DB15F2624A95A4F69BD35017532461 /* Pods-HiraginoLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HiraginoLabel_Example-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6168DDED1DC2503E764A2791CD3764DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C20640177C20450E4ABA02386E8C51 /* Pods_HiraginoLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HiraginoLabel_Example.framework; path = "Pods-HiraginoLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C53104C41828E97FD1D42FBDD62A210 /* Pods-HiraginoLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiraginoLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7F8B36608BFCFA3174639F8A542E411C /* HiraginoLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HiraginoLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		848C8136EDC3A94FAEFBC647A05C0617 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		725B9C35B1906A0D22A2CFF7230E8AC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		8ABB55134B0C90E3350B8E9940C4C5F3 /* Pods-HiraginoLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HiraginoLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		92B580B892CB15D4F7FF5BEE8346CAD3 /* Pods-HiraginoLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HiraginoLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98518607F56FE0C582017B7E1AA2B8BF /* HiraginoLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HiraginoLabel.modulemap; sourceTree = "<group>"; };
-		A1B1B7EC223120BA00FA7E38 /* HiraginoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HiraginoLabel.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ABCEBA2BEA18942CA186F0AD394EAD66 /* Pods-HiraginoLabel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiraginoLabel_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		BAF9913EE7324E7338C6C8163CCADA3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C10E3557307E950484A3C49ECE44FEEF /* HiraginoLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HiraginoLabel-dummy.m"; sourceTree = "<group>"; };
+		B5F4706D3863A414F7C40ED807BC38EA /* HiraginoLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HiraginoLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC8C18DE57B8EB0F53AB485D6BDD2D4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C51C889DCFF5C99B835E2B6F044E5491 /* Pods_HiraginoLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HiraginoLabel_Tests.framework; path = "Pods-HiraginoLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6666432D759F7C4E7E533087BC55583 /* Pods-HiraginoLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiraginoLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C85ED0D995F0F49C07C8DA3D605FBBCC /* Pods-HiraginoLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HiraginoLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA456475183884F7CB404798816E49AE /* Pods-HiraginoLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiraginoLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEA6537EA6DABE926D0ABB4DBC8D721D /* Pods-HiraginoLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiraginoLabel_Tests-resources.sh"; sourceTree = "<group>"; };
-		DB15F7173DCEB6E292D716AAEA3C83B6 /* HiraginoLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HiraginoLabel-prefix.pch"; sourceTree = "<group>"; };
 		E2326FA85F40CABC47208C5B88E7292D /* Pods-HiraginoLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiraginoLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E310B7940F3F8551E8D4AC0ADA9D15EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EF456C6E04F81D8E5F3671B851CBB49F /* Pods-HiraginoLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HiraginoLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F545C8AB8CC7A296712491D0228EC71B /* Pods-HiraginoLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HiraginoLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FC43C97EA70C65B4D42EA10E30722C4A /* Pods-HiraginoLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HiraginoLabel_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2130C757BC2DBA3D142D07392408BD04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA9F5E41E2BBA514EBC31AFB836BBEDE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59ADD0BDF9BBF9B6062160425FA82A2B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4144FDF463ADE951A7571DFC2E890091 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C1A72CCF8B625E49FA02AEE9F554A31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,15 +64,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		931CAE2685FD1409733F04E276F4F853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9F501A5641F01098A18DB58AE683079 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		187BC1434865EF033821AE394299A878 /* Development Pods */ = {
+		00329CD1E646071BC71CB5DA591C2DE8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				F3BF24BAAD7C865B86261D2829D4A309 /* HiraginoLabel */,
+				B5F4706D3863A414F7C40ED807BC38EA /* HiraginoLabel.podspec */,
+				BC8C18DE57B8EB0F53AB485D6BDD2D4E /* LICENSE */,
+				725B9C35B1906A0D22A2CFF7230E8AC5 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2A39F78271214C1124FB859149C2586B /* HiraginoLabel */ = {
+			isa = PBXGroup;
+			children = (
+				00329CD1E646071BC71CB5DA591C2DE8 /* Pod */,
+			);
+			name = HiraginoLabel;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		2FEF920A5EE4FD8736904036801D0080 /* Targets Support Files */ = {
@@ -127,39 +111,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6AF6C5DE78BB8CA4B79B2B2DE179EB56 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7F8B36608BFCFA3174639F8A542E411C /* HiraginoLabel.podspec */,
-				E310B7940F3F8551E8D4AC0ADA9D15EB /* LICENSE */,
-				848C8136EDC3A94FAEFBC647A05C0617 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7DB086A46C9AD848E18134E450D25F01 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				98518607F56FE0C582017B7E1AA2B8BF /* HiraginoLabel.modulemap */,
-				30A506327777951C42F95EEA66884D2E /* HiraginoLabel.xcconfig */,
-				C10E3557307E950484A3C49ECE44FEEF /* HiraginoLabel-dummy.m */,
-				DB15F7173DCEB6E292D716AAEA3C83B6 /* HiraginoLabel-prefix.pch */,
-				0EBC0D4C85E028601E72571EF0D11469 /* HiraginoLabel-umbrella.h */,
-				BAF9913EE7324E7338C6C8163CCADA3F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HiraginoLabel";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				187BC1434865EF033821AE394299A878 /* Development Pods */,
+				AB02B152900F8F06E7861EAB65514EB7 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				EB239DD0BE0530F5C2370BC244DDCCCC /* Products */,
+				FC45421B3D73E1636100F3AD7A3924CC /* Products */,
 				2FEF920A5EE4FD8736904036801D0080 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		AB02B152900F8F06E7861EAB65514EB7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A39F78271214C1124FB859149C2586B /* HiraginoLabel */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -188,25 +156,13 @@
 			path = "Target Support Files/Pods-HiraginoLabel_Example";
 			sourceTree = "<group>";
 		};
-		EB239DD0BE0530F5C2370BC244DDCCCC /* Products */ = {
+		FC45421B3D73E1636100F3AD7A3924CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				45255488D8D156827446A368E127A43C /* HiraginoLabel.framework */,
-				532EDA3FD79735F76A9F8BADE6EEC7B0 /* Pods_HiraginoLabel_Example.framework */,
-				125824B901D644B1760700349E2751DF /* Pods_HiraginoLabel_Tests.framework */,
+				66C20640177C20450E4ABA02386E8C51 /* Pods_HiraginoLabel_Example.framework */,
+				C51C889DCFF5C99B835E2B6F044E5491 /* Pods_HiraginoLabel_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F3BF24BAAD7C865B86261D2829D4A309 /* HiraginoLabel */ = {
-			isa = PBXGroup;
-			children = (
-				A1B1B7EC223120BA00FA7E38 /* HiraginoLabel.swift */,
-				6AF6C5DE78BB8CA4B79B2B2DE179EB56 /* Pod */,
-				7DB086A46C9AD848E18134E450D25F01 /* Support Files */,
-			);
-			name = HiraginoLabel;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		FDB46156BD299F341FEE1A876B7129E7 /* Pods-HiraginoLabel_Tests */ = {
@@ -230,14 +186,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		062D8730CDA0A946ED8A99853F3BCC85 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFFFFB29082AD2220ADB497C65B18E80 /* HiraginoLabel-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AF2D7AB6F1FD85D7EE1F9FB837053AA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,17 +194,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F6555A9291AEBE4C48081431915523 /* Headers */ = {
+		E9F91E1BACC929F5E80FF9CBA62434A4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				583CC5DCA6F6C6D116F6A3BF34B00559 /* Pods-HiraginoLabel_Example-umbrella.h in Headers */,
+				D33CADAF9B62F04B28940624AB0D1DED /* Pods-HiraginoLabel_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6EFFA41AC23F8C3F589A3392FF213682 /* Pods-HiraginoLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BD76CFB9620325EFFFBE2408054E9CC /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Example" */;
+			buildPhases = (
+				E9F91E1BACC929F5E80FF9CBA62434A4 /* Headers */,
+				86CC9F9FEF825A2D42B202A95E685673 /* Sources */,
+				931CAE2685FD1409733F04E276F4F853 /* Frameworks */,
+				C5C839D48886D400000316440718B50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HiraginoLabel_Example";
+			productName = "Pods-HiraginoLabel_Example";
+			productReference = 66C20640177C20450E4ABA02386E8C51 /* Pods_HiraginoLabel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		91FACAC33E9DE26C1738ADA85A00860E /* Pods-HiraginoLabel_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B384FD768272F9EEDB6DCC22775C0A7 /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Tests" */;
@@ -273,44 +239,7 @@
 			);
 			name = "Pods-HiraginoLabel_Tests";
 			productName = "Pods-HiraginoLabel_Tests";
-			productReference = 125824B901D644B1760700349E2751DF /* Pods_HiraginoLabel_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		96FC7855E2A6DC8A64F58619C080AF8C /* HiraginoLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F5981BE4A4ADC4E54DF645C61C830967 /* Build configuration list for PBXNativeTarget "HiraginoLabel" */;
-			buildPhases = (
-				062D8730CDA0A946ED8A99853F3BCC85 /* Headers */,
-				963763C60B0C6C3655A59469E2E8FD90 /* Sources */,
-				2130C757BC2DBA3D142D07392408BD04 /* Frameworks */,
-				C5F7CEC308296EFC3E9C644A2C402B8F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = HiraginoLabel;
-			productName = HiraginoLabel;
-			productReference = 45255488D8D156827446A368E127A43C /* HiraginoLabel.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E4E118280E2423BB06C5066ED8182E93 /* Pods-HiraginoLabel_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 48B217CA4C80A6B958E6514B80FA0601 /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Example" */;
-			buildPhases = (
-				C6F6555A9291AEBE4C48081431915523 /* Headers */,
-				0CF55D54FC21739C9F5E7F7E595B2BFA /* Sources */,
-				59ADD0BDF9BBF9B6062160425FA82A2B /* Frameworks */,
-				D3639C5877272F7C1EA3A49056001E99 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D57D4E0791D4D422EA7E985C212DDCC3 /* PBXTargetDependency */,
-			);
-			name = "Pods-HiraginoLabel_Example";
-			productName = "Pods-HiraginoLabel_Example";
-			productReference = 532EDA3FD79735F76A9F8BADE6EEC7B0 /* Pods_HiraginoLabel_Example.framework */;
+			productReference = C51C889DCFF5C99B835E2B6F044E5491 /* Pods_HiraginoLabel_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,26 +259,18 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = EB239DD0BE0530F5C2370BC244DDCCCC /* Products */;
+			productRefGroup = FC45421B3D73E1636100F3AD7A3924CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96FC7855E2A6DC8A64F58619C080AF8C /* HiraginoLabel */,
-				E4E118280E2423BB06C5066ED8182E93 /* Pods-HiraginoLabel_Example */,
+				6EFFA41AC23F8C3F589A3392FF213682 /* Pods-HiraginoLabel_Example */,
 				91FACAC33E9DE26C1738ADA85A00860E /* Pods-HiraginoLabel_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C5F7CEC308296EFC3E9C644A2C402B8F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3639C5877272F7C1EA3A49056001E99 /* Resources */ = {
+		C5C839D48886D400000316440718B50B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -366,20 +287,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0CF55D54FC21739C9F5E7F7E595B2BFA /* Sources */ = {
+		86CC9F9FEF825A2D42B202A95E685673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6DC854054B9425DF8452BA626D46E5 /* Pods-HiraginoLabel_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		963763C60B0C6C3655A59469E2E8FD90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45F7E0ED23FFCFC2427E530650D907A3 /* HiraginoLabel-dummy.m in Sources */,
-				A1B1B7ED223120BA00FA7E38 /* HiraginoLabel.swift in Sources */,
+				B76DE7E68FF3F593BF194D8DF6B6A1BB /* Pods-HiraginoLabel_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,19 +309,13 @@
 		7915E0D5FFF353C336D2E94AEDABAB4E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HiraginoLabel_Example";
-			target = E4E118280E2423BB06C5066ED8182E93 /* Pods-HiraginoLabel_Example */;
+			target = 6EFFA41AC23F8C3F589A3392FF213682 /* Pods-HiraginoLabel_Example */;
 			targetProxy = 67D41BA24E5116525DCAFB57264EA170 /* PBXContainerItemProxy */;
-		};
-		D57D4E0791D4D422EA7E985C212DDCC3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HiraginoLabel;
-			target = 96FC7855E2A6DC8A64F58619C080AF8C /* HiraginoLabel */;
-			targetProxy = 9C2D021EED1CEED03877E3C4E4280FBA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1025EFDBECA34726A96BBD5A4B10A17A /* Debug */ = {
+		4ACA4914F80FD4DBF3963D5065BAAC32 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EF456C6E04F81D8E5F3671B851CBB49F /* Pods-HiraginoLabel_Example.debug.xcconfig */;
 			buildSettings = {
@@ -436,41 +342,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2B446A0E2D4CB98E3D558A4CD2F93592 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C53104C41828E97FD1D42FBDD62A210 /* Pods-HiraginoLabel_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HiraginoLabel_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HiraginoLabel_Tests/Pods-HiraginoLabel_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -536,7 +408,7 @@
 			};
 			name = Release;
 		};
-		5785AECD7020F158AC4116509C2067A8 /* Release */ = {
+		97C8B9F34A81FC853CD853CA18469A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA456475183884F7CB404798816E49AE /* Pods-HiraginoLabel_Example.release.xcconfig */;
 			buildSettings = {
@@ -563,45 +435,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		86F837449AFEC938AA16DA8F52B5CBD5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30A506327777951C42F95EEA66884D2E /* HiraginoLabel.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HiraginoLabel/HiraginoLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HiraginoLabel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HiraginoLabel/HiraginoLabel.modulemap";
-				PRODUCT_MODULE_NAME = HiraginoLabel;
-				PRODUCT_NAME = HiraginoLabel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -667,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		C96348085C58F9FEEE3F4A911E0CB3EA /* Release */ = {
+		CF8894404103C3F3E19B34DE20805BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E2326FA85F40CABC47208C5B88E7292D /* Pods-HiraginoLabel_Tests.release.xcconfig */;
 			buildSettings = {
@@ -694,6 +534,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -701,10 +542,11 @@
 			};
 			name = Release;
 		};
-		E1A8651DD724EBCA5A2DE4B72D776390 /* Release */ = {
+		DC51DBE927A3AAB51D66CAE4CD26CCFC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 30A506327777951C42F95EEA66884D2E /* HiraginoLabel.xcconfig */;
+			baseConfigurationReference = 6C53104C41828E97FD1D42FBDD62A210 /* Pods-HiraginoLabel_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -714,25 +556,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HiraginoLabel/HiraginoLabel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HiraginoLabel/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-HiraginoLabel_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HiraginoLabel/HiraginoLabel.modulemap";
-				PRODUCT_MODULE_NAME = HiraginoLabel;
-				PRODUCT_NAME = HiraginoLabel;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HiraginoLabel_Tests/Pods-HiraginoLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -749,26 +591,17 @@
 		3B384FD768272F9EEDB6DCC22775C0A7 /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2B446A0E2D4CB98E3D558A4CD2F93592 /* Debug */,
-				C96348085C58F9FEEE3F4A911E0CB3EA /* Release */,
+				DC51DBE927A3AAB51D66CAE4CD26CCFC /* Debug */,
+				CF8894404103C3F3E19B34DE20805BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		48B217CA4C80A6B958E6514B80FA0601 /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Example" */ = {
+		7BD76CFB9620325EFFFBE2408054E9CC /* Build configuration list for PBXNativeTarget "Pods-HiraginoLabel_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1025EFDBECA34726A96BBD5A4B10A17A /* Debug */,
-				5785AECD7020F158AC4116509C2067A8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F5981BE4A4ADC4E54DF645C61C830967 /* Build configuration list for PBXNativeTarget "HiraginoLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				86F837449AFEC938AA16DA8F52B5CBD5 /* Debug */,
-				E1A8651DD724EBCA5A2DE4B72D776390 /* Release */,
+				4ACA4914F80FD4DBF3963D5065BAAC32 /* Debug */,
+				97C8B9F34A81FC853CD853CA18469A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

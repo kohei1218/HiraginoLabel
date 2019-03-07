@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1972BCF7413D67D298722BEE /* HiraginoLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HiraginoLabel.podspec; path = ../HiraginoLabel.podspec; sourceTree = "<group>"; };
+		1972BCF7413D67D298722BEE /* HiraginoLabel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HiraginoLabel.podspec; path = ../HiraginoLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B737384A0E23FDF5C831DB3 /* Pods_HiraginoLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiraginoLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0B966C84587E827C43F412 /* Pods-HiraginoLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HiraginoLabel_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HiraginoLabel_Example/Pods-HiraginoLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E7AA3C37AD76007C8AA2913 /* Pods_HiraginoLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HiraginoLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				88F54561C97930EEB1E0705B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,28 +304,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		88F54561C97930EEB1E0705B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HiraginoLabel_Example/Pods-HiraginoLabel_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HiraginoLabel/HiraginoLabel.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HiraginoLabel.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HiraginoLabel_Example/Pods-HiraginoLabel_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

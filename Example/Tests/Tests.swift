@@ -1,5 +1,4 @@
 import XCTest
-import HiraginoLabel
 
 class Tests: XCTestCase {
     
