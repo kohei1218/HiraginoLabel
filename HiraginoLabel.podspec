@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiraginoLabel'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'UIlabel that can display Hiragino font perfectly.'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,7 @@ With HiraginoLabel, you can display perfectly a line without appending code.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kohei1218' => 'yandapanda1218@gmail.com' }
   s.source           = { :git => 'https://github.com/kohei1218/HiraginoLabel.git', :tag => s.version.to_s }
+  s.swift_versions   = '4.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
