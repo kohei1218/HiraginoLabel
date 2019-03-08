@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HiraginoLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.2'
   s.summary          = 'UIlabel that can display Hiragino font perfectly.'
 
 # This description is used to generate tags and improve search results.
