@@ -32,13 +32,13 @@ With HiraginoLabel, you can display perfectly a line without appending code.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HiraginoLabel/Classes/**/*'
+  s.source_files = 'HiraginoLabel/Classes/*'
   
   # s.resource_bundles = {
   #   'HiraginoLabel' => ['HiraginoLabel/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

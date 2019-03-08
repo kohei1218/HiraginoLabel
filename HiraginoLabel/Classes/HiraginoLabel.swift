@@ -16,10 +16,8 @@ public class HiraginoLabel: UILabel {
     }
     
     override public func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, UIEdgeInsets(top: ceilMargin,
-                                                                    left: 0.0,
-                                                                    bottom: ceilMargin,
-                                                                    right: 0.0)))
+        let insets = UIEdgeInsets.init(top: ceilMargin, left: 0.0, bottom: ceilMargin, right: 0.0)
+        super.drawText(in: rect.inset(by: insets))
     }
     
     override public var alignmentRectInsets: UIEdgeInsets {
